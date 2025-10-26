@@ -1,0 +1,18 @@
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          187.45.240.105
++ Target Hostname:    lgamineracao.com.br
++ Target Port:        80
++ Start Time:         2025-10-02 22:20:31 (GMT-3)
+---------------------------------------------------------------------------
++ Server: Apache
++ /: Retrieved x-powered-by header: PHP/8.0.10.
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: Uncommon header 'x-redirect-by' found, with contents: WordPress.
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ Root page / redirects to: https://lgamineracao.com.br/
++ /qB5JnQOD.ee: Link header found with value: <https://lgamineracao.com.br/wp-json/>; rel="https://api.w.org/". See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link
++ Scan terminated: 0 error(s) and 5 item(s) reported on remote host
++ End Time:           2025-10-02 22:21:11 (GMT-3) (40 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
